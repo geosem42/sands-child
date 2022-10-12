@@ -5,7 +5,7 @@
  * @package Understrap
  */
 
-// it finally works!
+// Final test to live theme
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
