@@ -5,7 +5,7 @@
  * @package Understrap
  */
 
- // Another attempt git repo
+// it finally works!
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
