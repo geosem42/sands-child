@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 	$.cookieBar({
 			style:'bottom',
-			infoLink:  'https://www.scienceandstuff.com/privacy/',
+			infoLink:  'https://www.scienceandstuff.com/privacy-policy/',
 			infoTarget:'_blank',
 			expireDays: 365
 		  });
