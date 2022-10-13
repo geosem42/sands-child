@@ -14,7 +14,8 @@ $(document).ready(function () {
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		arrows: false,
-		autoplay: false,
+		dots: true,
+		autoplay: true,
 		autoplaySpeed: 4000,
 		cssEase: 'linear',
 		speed: 1000,
@@ -60,6 +61,7 @@ $(document).ready(function () {
 		cssEase: 'linear',
 		speed: 1000,
 		arrows: false,
+		dots: true,
 		responsive: [
 			{
 				breakpoint: 1024,
