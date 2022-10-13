@@ -1,12 +1,4 @@
-$(document).ready(function () {
-
-	$.cookieBar({
-			style:'bottom',
-			infoLink:  'https://www.scienceandstuff.com/privacy-policy/',
-			infoTarget:'_blank',
-			expireDays: 365
-		  });
-		
+$(document).ready(function () {	
 
 	$('.trending-carousel').slick({
 		infinite: true,
