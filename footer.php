@@ -143,8 +143,6 @@ $linkedin = rwmb_meta('linkedin_url', ['object_type' => 'setting'], 'site-settin
 	</div>
 </div>
 
-</div>
-
 <?php wp_footer(); ?>
 
 </body>

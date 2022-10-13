@@ -1,4 +1,13 @@
 $(document).ready(function () {
+
+	$.cookieBar({
+			style:'bottom',
+			infoLink:  'https://www.scienceandstuff.com/privacy/',
+			infoTarget:'_blank',
+			expireDays: 365
+		  });
+		
+
 	$('.trending-carousel').slick({
 		infinite: true,
 		speed: 300,
@@ -88,17 +97,20 @@ $(document).ready(function () {
 		var h = $(this).find('a').attr('href');
 		window.location.href = h;
 	});
+
 	if ($('iframe').length > 0) {
 		$('iframe').parent().addClass('ratio ratio-16x9')
 	}
 
 	var stickyOffset = $('.sticky').offset().top;
-	$(window).scroll(function(){
+	$(window).scroll(function() {
 	var sticky = $('.sticky'),
 		scroll = $(window).scrollTop();
 
 	if (scroll >= stickyOffset) sticky.addClass('fixed-top');
 		else sticky.removeClass('fixed-top');
 	});
+
+	
 
 });
