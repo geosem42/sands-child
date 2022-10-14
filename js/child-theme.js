@@ -3,6 +3,7 @@ $(document).ready(function () {
 	$(window).scroll(function() {
 		if($(window).scrollTop() >= 100) {
 			$('nav .navbar-brand img').css('width', '40px');
+			
 			//$('#wrapper-navbar').addClass('sticky-top');
 			
 		} else {
@@ -12,8 +13,10 @@ $(document).ready(function () {
 
 		if($(window).scrollTop() >= 200) {
 			$('#wrapper-navbar').addClass('sticky-top');
+			$('nav .navbar-brand img').attr('src', 'http://localhost/sands/wp-content/themes/sands-child/img/logo-minimal.png');
 		} else {
 			$('#wrapper-navbar').removeClass('sticky-top');
+			$('nav .navbar-brand img').attr('src', 'http://localhost/sands/wp-content/themes/sands-child/img/logo.png');
 		}
 	});
 	
