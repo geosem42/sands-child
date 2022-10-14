@@ -1,5 +1,23 @@
 $(document).ready(function () {	
 
+	$(window).scroll(function() {
+		if($(window).scrollTop() >= 100) {
+			$('nav .navbar-brand img').css('width', '40px');
+			//$('#wrapper-navbar').addClass('sticky-top');
+			
+		} else {
+			$('nav .navbar-brand img').css('width', '120px');
+			//$('#wrapper-navbar').removeClass('sticky-top');
+		}
+
+		if($(window).scrollTop() >= 200) {
+			$('#wrapper-navbar').addClass('sticky-top');
+		} else {
+			$('#wrapper-navbar').removeClass('sticky-top');
+		}
+	});
+	
+
 	$('.trending-carousel').slick({
 		infinite: true,
 		speed: 300,

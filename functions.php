@@ -69,14 +69,12 @@ function theme_enqueue_styles() {
 	wp_enqueue_style( 'bootstrap-icons', get_stylesheet_directory_uri() . '/vendor/bootstrap-icons/bootstrap-icons.css', $the_theme->get( 'Version' ) );
 	wp_enqueue_style( 'slick', get_stylesheet_directory_uri() . '/vendor/slick-carousel/slick.css', $the_theme->get( 'Version' ) );
 	wp_enqueue_style( 'slick-theme', get_stylesheet_directory_uri() . '/vendor/slick-carousel/slick-theme.css', $the_theme->get( 'Version' ) );
-	wp_enqueue_style( 'cookiebar', get_stylesheet_directory_uri() . '/vendor/cookiebar/jquery.cookieBar.min.css', $the_theme->get( 'Version' ) );
 
 	wp_enqueue_script( 'jquery', get_stylesheet_directory_uri() . '/vendor/jquery/jquery.min.js', array(), $the_theme->get( 'Version' ) );
 	wp_enqueue_script( 'jquery-miragte', get_stylesheet_directory_uri() . '/vendor/jquery/jquery-migrate-3.4.0.min.js', array(), $the_theme->get( 'Version' ) );
 	wp_enqueue_script( 'child-sands-scripts', get_stylesheet_directory_uri() . $theme_scripts, array(), $the_theme->get( 'Version' ), true );
 	wp_enqueue_script( 'slick', get_stylesheet_directory_uri() . '/vendor/slick-carousel/slick.min.js', array(), $the_theme->get( 'Version' ), true );
 	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/vendor/bootstrap/dist/js/bootstrap.bundle.min.js', array(), $the_theme->get( 'Version' ), true );
-	wp_enqueue_script( 'cookiebar', get_stylesheet_directory_uri() . '/vendor/cookiebar/jquery.cookieBar.min.js', array(), $the_theme->get( 'Version' ), true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
