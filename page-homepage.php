@@ -99,7 +99,7 @@ get_header();
                             'post_type'              => array('post'),
                             'nopaging'               => false,
                             'meta_key'               => 'post_views_count',
-                            'posts_per_page'         => '6',
+                            'posts_per_page'         => '4',
                             'orderby'                => 'meta_value_num',
                             'order'                  => 'DESC',
                             'date_query'             => array(
