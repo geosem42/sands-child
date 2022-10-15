@@ -23,7 +23,7 @@ $cat_query3 = new WP_Query( array( 'cat' => $category_id,'posts_per_page' => '1'
                         <div class="something">
                             <span class="badge"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></span>
                             <div class="post-source">
-                                <a href="#">
+                                <a href="<?php the_permalink(); ?>">
                                     <h1><?php the_title(); ?></h1>
                                 </a>
                                 <div class="post-date d-flex align-items-center">
@@ -43,7 +43,7 @@ $cat_query3 = new WP_Query( array( 'cat' => $category_id,'posts_per_page' => '1'
                         <div class="upper featured-post" style="background:url(<?php the_post_thumbnail_url('full'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
                             <span class="badge"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></span>
                             <div class="post-source">
-                                <a href="#">
+                                <a href="<?php the_permalink(); ?>">
                                     <h1><?php the_title(); ?></h1>
                                 </a>
                                 <div class="post-date d-flex align-items-center">
@@ -61,7 +61,7 @@ $cat_query3 = new WP_Query( array( 'cat' => $category_id,'posts_per_page' => '1'
                         <div class="lower featured-post" style="background:url(<?php the_post_thumbnail_url('full'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
                             <span class="badge"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></span>
                             <div class="post-source">
-                                <a href="#">
+                                <a href="<?php the_permalink(); ?>">
                                     <h1><?php the_title(); ?></h1>
                                 </a>
                                 <div class="post-date d-flex align-items-center">
