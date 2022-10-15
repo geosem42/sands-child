@@ -13,10 +13,10 @@ $(document).ready(function () {
 
 		if($(window).scrollTop() >= 200) {
 			$('#wrapper-navbar').addClass('sticky-top');
-			$('nav .navbar-brand img').attr('src', 'http://localhost/sands/wp-content/themes/sands-child/img/logo-minimal.png');
+			$('nav .navbar-brand img').attr('src', 'https://scienceandstuff.com/wp-content/themes/sands-child/img/logo-minimal.png');
 		} else {
 			$('#wrapper-navbar').removeClass('sticky-top');
-			$('nav .navbar-brand img').attr('src', 'http://localhost/sands/wp-content/themes/sands-child/img/logo.png');
+			$('nav .navbar-brand img').attr('src', 'https://scienceandstuff.com/wp-content/themes/sands-child/img/logo.png');
 		}
 	});
 	
