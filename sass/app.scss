@@ -108,6 +108,20 @@ h2 {
     }
 }
 
+.page-id-153,
+.page-id-356,
+.page-id-358,
+.page-id-3,
+.page-id-361 {
+    article {
+        margin: 0 250px;
+
+        @media (max-width: 768px) {
+            margin: inherit;
+        }
+    }
+}
+
 /*
 button-variant($background, $border, $color, $hover-background, $hover-border, $hover-color, $active-background, $active-border, $active-color, $disabled-background, $disabled-border, $disabled-color
 */
