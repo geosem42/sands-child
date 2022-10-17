@@ -255,6 +255,9 @@ get_header();
         </div>
         <div class="row">
             <div class="col-md-12">
+                <div class="view-all-btn">
+                    <a href="/videos" class="btn btn-basic">View All</a>
+                </div>
                 <div class="videos-carousel">
                     <?php
                     $query_args = array(

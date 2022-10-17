@@ -1008,7 +1008,7 @@ section.latest-2 {
 }
 
 section.videos {
-    height: 420px;
+    height: 460px;
     background: -moz-linear-gradient(45deg, $yellow 0%, $lightblue 36%, $lightblue 68%, $yellow 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg, $yellow 0%, $lightblue 36%, $lightblue 68%, $yellow 100%);
@@ -1017,6 +1017,13 @@ section.videos {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     margin-top: 40px;
     margin-bottom: 40px;
+
+    .view-all-btn {
+        position: relative;
+        top: -30px;
+        right: 10px;
+        text-align: right;
+    }
 
     .section-heading.videos {
         position: relative;
