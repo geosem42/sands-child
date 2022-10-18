@@ -11194,6 +11194,22 @@ button-variant($background, $border, $color, $hover-background, $hover-border, $
   color: #fff;
 }
 
+.ajax-load-more-wrap.light-grey .alm-load-more-btn {
+  background-color: #000 !important;
+  color: #E7FF00 !important;
+  border: 1px solid #000 !important;
+  overflow: hidden !important;
+  transition: all 75ms ease !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+  font-weight: 600 !important;
+}
+.ajax-load-more-wrap.light-grey .alm-load-more-btn:hover {
+  background-color: #E7FF00 !important;
+  color: #000 !important;
+  border: 1px solid #E7FF00 !important;
+}
+
 .top-bar {
   height: 36px;
 }

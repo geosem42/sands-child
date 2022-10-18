@@ -274,6 +274,24 @@ button-variant($background, $border, $color, $hover-background, $hover-border, $
     color: $white;
 }
 
+.ajax-load-more-wrap.light-grey .alm-load-more-btn {
+    background-color: $black !important;
+    color: $yellow !important;
+    border: 1px solid $black !important;
+    overflow: hidden !important;
+    -webkit-transition: all 75ms ease !important;
+    transition: all 75ms ease !important;
+    outline: 0 !important;
+    border-radius: 0 !important;
+    font-weight: 600 !important;
+
+    &:hover {
+        background-color: $yellow !important;
+        color: $black !important;
+        border: 1px solid $yellow !important;
+    }
+}
+
 .top-bar {
     height: 36px;
 }
