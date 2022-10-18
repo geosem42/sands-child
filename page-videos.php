@@ -93,7 +93,7 @@ $skipped_ids = [$video_1, $video_2, $video_3];
                                 <div class="row g-0">
                                     <div class="col-md-4">
                                         <a href="<?php echo the_permalink(); ?>">
-                                            <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url(); ?>) center center / cover no-repeat; height: 100%;">
+                                            <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url('medium'); ?>) center center / cover no-repeat; height: 100%;">
 
                                             </div>
                                         </a>
