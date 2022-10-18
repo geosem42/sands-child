@@ -38,7 +38,7 @@ get_header();
 							<div class="row g-0">
 								<div class="col-md-4">
 									<a href="#">
-										<div class="card-bg" style="background: url(<?php the_post_thumbnail_url(); ?>) center center / cover no-repeat;">
+										<div class="card-bg" style="background: url(<?php the_post_thumbnail_url('medium'); ?>) center center / cover no-repeat;">
 											<span class="badge black">
 												<?php 
 													$category = get_the_terms(get_the_ID(), 'category');
