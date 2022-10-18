@@ -368,7 +368,7 @@ get_header();
                     // no posts found
                 }
                 ?>
-                <?php echo do_shortcode('[ajax_load_more loading_style="light-grey" container_type="div" post_type="post" offset="10" pause="true" images_loaded="true" placeholder="true" button_loading_label="Loading..." button_done_label="No More Articles"]') ?>
+                <?php echo do_shortcode('[ajax_load_more loading_style="light-grey" container_type="div" post_type="post" offset="10" pause="true" images_loaded="true" scroll="false" placeholder="true" button_loading_label="Loading..." button_done_label="No More Articles"]') ?>
             </div>
             <div class="col-md-3">
                 <div class="sidebar">
