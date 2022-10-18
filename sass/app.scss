@@ -1289,31 +1289,27 @@ section.article {
     }
 
     ul {
-        padding-left: 1rem;
 
         li {
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+            list-style-type: circle;
             margin-bottom: 10px;
         }
 
-        li:before {
-            color: $yellow;
-            content: "";
-            font-size: 1.2em;
-            background-image: url(../img/bullet-point.png);
-            background-size:auto;
-            background-repeat: no-repeat;
-            background-position: center;
-            position: relative;
-            width: 27px;
-            height: 24px;
-            display: inline-block;
-            left: 10px;
-            z-index: -10;
-        }
+        // li:before {
+        //     color: $yellow;
+        //     content: "";
+        //     font-size: 1.2em;
+        //     background-image: url(../img/bullet-point.png);
+        //     background-size:auto;
+        //     background-repeat: no-repeat;
+        //     background-position: center;
+        //     position: relative;
+        //     width: 27px;
+        //     height: 24px;
+        //     display: inline-block;
+        //     left: 10px;
+        //     z-index: -10;
+        // }
     }
 }
 
