@@ -37,7 +37,7 @@ $img_url = rwmb_meta('img_url');
 								<?php if($img_source) : echo $img_source; endif; ?>
 							<?php endif; ?>
 						</div>
-						<div class="card-bg" style="background: url(<?php the_post_thumbnail_url('full'); ?>) center center / cover no-repeat; height: 500px;">
+						<div class="card-bg" style="background: url(<?php the_post_thumbnail_url('large'); ?>) center center / cover no-repeat; height: 500px;">
 						</div>
 						<div class="card-img-overlay">
 							<a href="<?php echo $category_url; ?>"><span class="badge black"><?php echo $category_name; ?></span></a>
