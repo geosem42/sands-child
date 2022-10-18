@@ -18,7 +18,7 @@ get_header();
                     $category_object = get_the_category($post_id);
                     $category_name = $category_object[0]->name;
                     ?>
-                    <div class="left featured-post" style="background:url(<?php echo the_post_thumbnail_url('full'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
+                    <div class="left featured-post" style="background:url(<?php echo the_post_thumbnail_url('medium'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
                         <span class="badge"><?php echo $category_name; ?></span>
                         <div class="post-source">
                             <a href="<?php echo the_permalink(); ?>">
@@ -40,7 +40,7 @@ get_header();
                             $category_object = get_the_category($post_id);
                             $category_name = $category_object[0]->name;
                         ?>
-                        <div class="upper featured-post" style="background:url(<?php echo the_post_thumbnail_url('full'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
+                        <div class="upper featured-post" style="background:url(<?php echo the_post_thumbnail_url('medium'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
                             <span class="badge"><?php echo $category_name; ?></span>
                             <div class="post-source">
                                 <a href="<?php echo the_permalink(); ?>">
@@ -61,7 +61,7 @@ get_header();
                             $category_object = get_the_category($post_id);
                             $category_name = $category_object[0]->name;
                         ?>
-                        <div class="lower featured-post" style="background:url(<?php echo the_post_thumbnail_url('full'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
+                        <div class="lower featured-post" style="background:url(<?php echo the_post_thumbnail_url('medium'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
                             <span class="badge"><?php echo $category_name; ?></span>
                             <div class="post-source">
                                 <a href="<?php echo the_permalink(); ?>">
@@ -119,7 +119,7 @@ get_header();
                                 $category_name = $category_object[0]->name; ?>
                                 <div class="col-lg-3 mb-3 d-flex align-items-stretch">
                                     <div class="card">
-                                        <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url(); ?>) center center / cover; height: 180px;">
+                                        <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url('medium'); ?>) center center / cover; height: 180px;">
                                             <span class="badge black"><?php echo $category_name; ?></span>
                                         </div>
                                         <div class="card-body post-source d-flex flex-column">
@@ -203,7 +203,7 @@ get_header();
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <a href="<?php echo the_permalink(); ?>">
-                                        <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url(); ?>) center center / cover no-repeat;">
+                                        <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url('medium'); ?>) center center / cover no-repeat;">
                                             <span class="badge black"><?php echo $category_name; ?></span>
                                         </div>
                                     </a>
@@ -280,7 +280,7 @@ get_header();
                     ?>
                             <div class="col-lg-4 mb-3 d-flex align-items-center">
                                 <div class="card">
-                                    <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url(); ?>) center center / cover; height: 180px;">
+                                    <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url('medium'); ?>) center center / cover; height: 180px;">
                                         <!-- <span class="badge black">
                                     <?php
                                     // foreach ( $terms as $term ) {
@@ -339,7 +339,7 @@ get_header();
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <a href="<?php echo the_permalink(); ?>">
-                                        <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url(); ?>) center center / cover no-repeat;">
+                                        <div class="card-bg" style="background: url(<?php echo the_post_thumbnail_url('medium'); ?>) center center / cover no-repeat;">
                                             <span class="badge black"><?php echo $category_name; ?></span>
                                         </div>
                                     </a>
