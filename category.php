@@ -19,7 +19,7 @@ $cat_query3 = new WP_Query( array( 'cat' => $category_id,'posts_per_page' => '1'
                     while($cat_query1->have_posts()) : 
                         $cat_query1->the_post();
                     ?>
-                    <div class="left featured-post" style="background:url(<?php the_post_thumbnail_url('full'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
+                    <div class="left featured-post" style="background:url(<?php the_post_thumbnail_url('large'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
                         <div class="something">
                             <span class="badge"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></span>
                             <div class="post-source">
@@ -40,7 +40,7 @@ $cat_query3 = new WP_Query( array( 'cat' => $category_id,'posts_per_page' => '1'
                         while($cat_query2->have_posts()) : 
                             $cat_query2->the_post();
                         ?>
-                        <div class="upper featured-post" style="background:url(<?php the_post_thumbnail_url('full'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
+                        <div class="upper featured-post" style="background:url(<?php the_post_thumbnail_url('large'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
                             <span class="badge"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></span>
                             <div class="post-source">
                                 <a href="<?php the_permalink(); ?>">
@@ -58,7 +58,7 @@ $cat_query3 = new WP_Query( array( 'cat' => $category_id,'posts_per_page' => '1'
                         while($cat_query3->have_posts()) : 
                             $cat_query3->the_post();
                         ?>
-                        <div class="lower featured-post" style="background:url(<?php the_post_thumbnail_url('full'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
+                        <div class="lower featured-post" style="background:url(<?php the_post_thumbnail_url('large'); ?>) rgb(0 0 0 / 30%); background-size: cover; background-position: center; background-blend-mode: overlay;">
                             <span class="badge"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></span>
                             <div class="post-source">
                                 <a href="<?php the_permalink(); ?>">
