@@ -15,7 +15,7 @@ $container = get_theme_mod('understrap_container_type');
 <nav id="main-menu" class="navbar navbar-expand-lg navbar-light p-3">
 	<div class="container">
 		<a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Science And Stuff">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Science And Stuff" width="120" height="102">
 		</a>
 		<a class="nav-link text-dark search-mobile-icon" data-bs-toggle="offcanvas" href="#offcanvas-search" role="button" aria-controls="offcanvas-search">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/search-icon.png" alt="Search">
@@ -42,13 +42,13 @@ $container = get_theme_mod('understrap_container_type');
 		<ul class="navbar-nav utils ms-auto d-none d-lg-inline-flex">
 			<li class="nav-item mx-2 d-flex align-items-center">
 				<a class="nav-link text-dark search-top-icon" data-bs-toggle="offcanvas" href="#offcanvas-search" role="button" aria-controls="offcanvas-search">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/search-icon.png" alt="Search">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/search-icon.png" alt="Search" width="30" height="30">
 				</a>
 			</li>
 			<li class="nav-item mx-2 d-flex align-items-center">
 				<a class="nav-link text-dark" data-bs-toggle="offcanvas" href="#offcanvas-menu" role="button" aria-controls="offcanvas-menu">
 					<!-- <i class="gg-menu"></i> -->
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/burger-menu.png" alt="Burger Menu">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/burger-menu.png" alt="Burger Menu" width="29" height="27">
 				</a>
 			</li>
 		</ul>

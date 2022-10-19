@@ -25,7 +25,7 @@ get_header();
                                 <h1><?php echo the_title(); ?></h1>
                             </a>
                             <div class="post-date d-flex align-items-center">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="" width="10" height="15">
                                 <span class="text-light bs5">By <?php echo get_the_author(); ?>&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_date(); ?></span>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ get_header();
                                     <h1><?php echo the_title(); ?></h1>
                                 </a>
                                 <div class="post-date d-flex align-items-center">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="" width="10" height="15">
                                     <span class="text-light bs5">By <?php echo get_the_author(); ?>&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_date(); ?></span>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ get_header();
                                     <h1><?php echo the_title(); ?></h1>
                                 </a>
                                 <div class="post-date d-flex align-items-center">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="" width="10" height="15">
                                     <span class="text-light bs5">By <?php echo get_the_author(); ?>&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo get_the_date(); ?></span>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@ get_header();
             <div class="col-md-12">
                 <div class="section-heading mb-4">
                     <span>Trending</span>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/trending-icon.png" alt="Trending" width="75">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/trending-icon.png" alt="Trending" width="75" height="50">
                 </div>
                 <div class="row">
                     <div class="trending-carousel">
@@ -127,7 +127,7 @@ get_header();
                                                 <h1 class="card-text"><?php echo the_title(); ?></h1>
                                             </a>
                                             <div class="post-date d-flex align-items-center mt-auto align-self-start">
-                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="">
+                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="" width="10" height="15">
                                                 <a href="#author"><span>By <?php the_author(); ?></span></a>
                                                 <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                                                 <span><?php echo get_the_date(); ?></span>
@@ -171,7 +171,7 @@ get_header();
             <div class="col-md-12">
                 <div class="section-heading mb-4">
                     <span>Latest</span>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/latest-icon.png" alt="Latest Articles" class="latest-icon">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/latest-icon.png" alt="Latest Articles" class="latest-icon" width="55" height="44">
                 </div>
             </div>
         </div>
@@ -216,7 +216,7 @@ get_header();
                                         <p class="card-text"><?php echo wp_strip_all_tags($post->post_excerpt, true); ?></p>
 
                                         <div class="post-date d-flex align-items-center mt-auto align-self-start">
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="" width="10" height="15">
                                             <a href="#"><span class="category">By <?php the_author(); ?></span></a>
                                             <span class="separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                                             <span class="date"><?php echo get_the_date(); ?></span>
@@ -249,7 +249,7 @@ get_header();
             <div class="col-md-12">
                 <div class="section-heading videos mb-4">
                     <span>Videos</span>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/videos-icon.png" alt="Videos">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/videos-icon.png" alt="Videos" width="45" height="42">
                 </div>
             </div>
         </div>
@@ -352,7 +352,7 @@ get_header();
                                         <p class="card-text"><?php echo wp_strip_all_tags($post->post_excerpt, true); ?></p>
 
                                         <div class="post-date d-flex align-items-center mt-auto align-self-start">
-                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/caret.png" class="me-2" alt="" width="10" height="15">
                                             <a href="#"><span class="category">By <?php the_author(); ?></span></a>
                                             <span class="separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                                             <span class="date"><?php echo get_the_date(); ?></span>
