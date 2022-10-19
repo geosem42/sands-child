@@ -15,7 +15,7 @@ $container = get_theme_mod('understrap_container_type');
 <nav id="main-menu" class="navbar navbar-expand-lg navbar-light p-3">
 	<div class="container">
 		<a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Science And Stuff" width="120" height="102">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Science And Stuff">
 		</a>
 		<a class="nav-link text-dark search-mobile-icon" data-bs-toggle="offcanvas" href="#offcanvas-search" role="button" aria-controls="offcanvas-search">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/search-icon.png" alt="Search">
