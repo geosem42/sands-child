@@ -26,7 +26,7 @@ $linkedin = rwmb_meta('linkedin_url', ['object_type' => 'setting'], 'site-settin
 
 	<link rel='icon' href='<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico' type='image/x-icon' sizes="16x16" />
 	<meta name="google-site-verification" content="-3XbB_F8H8U3wsL7SQM92oWvYgnWVPYq8r1BkzR10xo" />
-	<meta property="fb:pages" content="1262575780457814" />
+	<meta property="fb:pages" content="739810642870491" />
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M7QJL83XCD"></script>
