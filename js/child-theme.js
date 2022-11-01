@@ -117,15 +117,4 @@ $(document).ready(function () {
 		$('iframe').parent().addClass('ratio ratio-16x9')
 	}
 
-	var stickyOffset = $('.sticky').offset().top;
-	$(window).scroll(function() {
-	var sticky = $('.sticky'),
-		scroll = $(window).scrollTop();
-
-	if (scroll >= stickyOffset) sticky.addClass('fixed-top');
-		else sticky.removeClass('fixed-top');
-	});
-
-	
-
 });
