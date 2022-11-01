@@ -55,7 +55,7 @@ $linkedin = rwmb_meta('linkedin_url', ['object_type' => 'setting'], 'site-settin
 					<a href="#"><i class="gg-facebook"></i></a> -->
 					<a href="<?php echo $facebook; ?>" target="_blank" class="me-3" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
 					<a href="<?php echo $instagram; ?>" target="_blank" class="me-3" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-					<a href="<?php echo $twitter; ?>" target="_blank" class="me-3" aria-label="Twiiter"><i class="bi bi-twitter"></i></a>
+					<a href="<?php echo $twitter; ?>" target="_blank" class="me-3" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
 					<a href="<?php echo $linkedin; ?>" target="_blank" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
 				</div>
 			</div>
