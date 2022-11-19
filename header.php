@@ -39,6 +39,8 @@ $linkedin = rwmb_meta('linkedin_url', ['object_type' => 'setting'], 'site-settin
 		gtag('config', 'G-M7QJL83XCD');
 	</script>
 
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8225079194922513" crossorigin="anonymous"></script>
+
 	<?php wp_head(); ?>
 </head>
 
